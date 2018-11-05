@@ -1,0 +1,6 @@
+<div class="col-md-12 pz-viewport-fe">
+	<f:if condition="{payload.csvTitle}">
+		<h2 class="pz-back pz-active-head-title">{payload.csvTitle}</h2>
+	</f:if>
+	<f:format.raw>{payload.html}</f:format.raw>
+</div>

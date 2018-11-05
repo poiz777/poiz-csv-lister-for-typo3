@@ -1,0 +1,71 @@
+%wrap {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+%gradient-bg-uniform-1{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f9db+0,f7f2ca+50,e4ead3+51,f7f5d4+100 */
+  background: #cece83; /* Old browsers */
+  background-image: -moz-linear-gradient(top, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* FF3.6-15 */
+  background-image: -webkit-linear-gradient(top, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(to bottom, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9db', endColorstr='#f7f5d4', GradientType=0); /* IE6-9 */
+}
+
+%gradient-bg-uniform-2{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cece83+0,cccc88+50,f4f1c6+100 */
+  background: #cece83; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cece83 0%, #cccc88 50%, #f4f1c6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cece83 0%,#cccc88 50%,#f4f1c6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cece83 0%,#cccc88 50%,#f4f1c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cece83', endColorstr='#f4f1c6',GradientType=0 ); /* IE6-9 */
+  border-color: #a0a031;
+}
+
+%wrap-no-padding {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%content-wrap-no-padding {
+  width: 100%;
+  max-width: $content-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%fix_float{
+  *zoom:1;
+  &:before, &:after{
+    content:"";
+    display:table;
+  }
+  &:after{
+    clear:both;
+  }
+}
+
+%response_tmpl_box{
+  width:100%;
+  float:none;
+  margin:0;
+}
+
+%mri_dark_box_shadow{
+  -webkit-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  -moz-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+}
+
+%response_tmpl_img{
+  width:100%;
+  float:none;
+  margin:0;
+  img, .full_pane_pix{
+	width:100%;
+  }
+}

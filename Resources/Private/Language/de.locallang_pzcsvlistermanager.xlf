@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-10-04T14:45:54Z" product-name="poiz_csv_lister">
+		<header/>
+		<body>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister">
+				<source>tx_poiz_csv_lister_domain_model_pzcsvlister</source>
+				<target state="translated">Poiz CSV-Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister.description">
+				<source>tx_poiz_csv_lister_domain_model_pzcsvlister.description</source>
+				<target state="translated">Eine Erweiterung zum Auflisten des Inhalts einer CSV-Datei.</target>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab">
+				<source>mlang_tabs_tab</source>
+				<target state="translated">Poiz CSV-Lister</target>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tablabel">
+				<source>mlang_labels_tablabel</source>
+				<target state="translated">Daten aus CSV-Datei auf dem Frontend rendern</target>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tabdescr">
+				<source>mlang_labels_tabdescr</source>
+				<target state="translated">Eine Erweiterung zum Auflisten des Inhalts einer CSV-Datei. Wenn eine hochgeladene CSV-Datei Einträge mit Pfad zu Bilddateien (jpg, png, gif) enthält, werden die Einträge direkt als Bilder gerendert. Wenn der Bild-URI ungültig ist, wird stattdessen ein standardmäßiges NOT-FOUND-Bild verwendet. Einträge werden mit HTML Table gerendert.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
+

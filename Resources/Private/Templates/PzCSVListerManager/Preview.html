@@ -1,0 +1,9 @@
+<div class="col-md-12 pz-module">
+	<f:render partial="LocalizedMenu.html" arguments="{activeLink: payload.activeLink}"/>
+	<f:render partial="BackButtonBlock.html" arguments="{backBtnLink: payload.back}"/>
+
+	<f:if condition="{status}">
+		<h1>{status}</h1>
+	</f:if>
+	<f:format.raw>{payload.html}</f:format.raw>
+</div>

@@ -1,0 +1,25 @@
+{
+    "name": "poiz/code-pool",
+    "description": "Simple CSV Management Plugin: for both Frontend Rendering and Backend Editing ;-)",
+    "authors": [
+        {
+            "name": "Poiz Campbell",
+            "email": "poizcampbell777@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper"	: "^3.2",
+        "doctrine/orm"			: "2.5.11",
+        "parsecsv/php-parsecsv" : "^1.1",
+        "pimple/pimple"         : "^3.2",
+        "nesbot/carbon"         : "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodePool\\Pz\\"                : "./Pz/",
+            "CodePool\\Pz\\FormObjects\\"   : "./Pz/FormObjects/",
+            "Aura\\Session\\"				: "./Pz/PSR-4/Aura/src/",
+            "Aura\\Session\\_Config\\"	    : "./Pz/PSR-4/Aura/config/"
+        }
+    }
+}

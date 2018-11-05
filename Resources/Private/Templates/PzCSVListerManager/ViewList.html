@@ -1,0 +1,6 @@
+<div class="col-md-12 pz-module">
+	<f:render partial="LocalizedMenu.html" arguments="{activeLink: payload.activeLink}"/>
+	<f:render partial="BackButtonBlock.html" arguments="{backBtnLink: payload.back}"/>
+	<h3 class="pz-active-head-title">{payload.title}</h3>
+	<f:format.raw>{payload.html}</f:format.raw>
+</div>

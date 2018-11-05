@@ -1,0 +1,109 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Poiz CSV Lister Config</sheetTitle>
+                </TCEforms>
+                <el>
+                    <settings.forms.csv_title>
+                        <TCEforms>
+                            <label>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.heading_title</label>
+                            <config>
+                                <type>input</type>
+                                <default></default>
+                                <placeholder>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.heading_placeholder</placeholder>
+                            </config>
+                        </TCEforms>
+                    </settings.forms.csv_title>
+
+                    <settings.forms.render_pix_uri_as_pix>
+                        <TCEforms>
+                            <label>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.render_pix_uri_as_pix_image</label>
+                            <config>
+                                <type>select</type>
+                                <eval>string</eval>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.option_yes</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.option_no</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.forms.render_pix_uri_as_pix>
+
+                    <settings.forms.list_and_link>
+                        <TCEforms>
+                            <label>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.list_and_link_csv_label</label>
+                            <config>
+                                <type>select</type>
+                                <eval>string</eval>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.option_yes</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.option_no</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.forms.list_and_link>
+
+                    <settings.forms.csv_id>
+                        <TCEforms>
+                            <label>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.initial_render_id_label</label>
+                            <config>
+                                <type>input</type>
+                                <default></default>
+                                <placeholder>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.initial_render_id_placeholder</placeholder>
+                            </config>
+                        </TCEforms>
+                    </settings.forms.csv_id>
+
+                    <settings.forms.csv_id_info>
+                        <TCEforms>
+                            <label>LLL:EXT:poiz_csv_lister/Resources/Private/Language/locallang.xlf:poiz_csv_lister.pi_flexform.csv_id_note_label</label>
+                            <config>
+                                <type>text</type>
+                                <pass_content>true</pass_content>
+                                <rows>5</rows>
+                                <default>================ HINWEISE: DE ===================
+Wenn Sie oben «Nein» unter «Alle CSV-Dateien auflisten und verknüpfen» ausgewählt haben, müssen Sie die ID der zu rendernden CSV-Datei angeben, da ansonsten nichts im Frontend sichtbar ist.
+
+Um die ID der CSV zu erhalten, gehen Sie bitte auf die Konfigurationsseite. Klicken Sie auf das CSV-Listenmenü, um alle verfügbaren CSV-Dateien aufzulisten. Auf der linken Seite jeder Datei befindet sich eine Zahl, die die ID der Datei darstellt. Wählen Sie das zutreffende aus.
+
+Wenn Sie "Alle CSV-Dateien auflisten" auf "Ja" setzen, wird automatisch eine ungeordnete Liste von anklickbaren Links erstellt, die auf die jeweilige (n) CSV-Datei (en) verweisen.
+
+================== ASTUCES: FR ==================
+Si vous avez sélectionné «Non» dans «Répertorier et lier tous les fichiers CSV?» Ci-dessus, vous devez fournir l'ID du fichier CSV à afficher sinon rien ne sera visible sur le Frontend.
+
+Pour obtenir l'ID du fichier CSV, accédez à la page de configuration. Cliquez sur le menu Liste CSV pour répertorier tous les fichiers CSV disponibles. À gauche de chaque fichier se trouve un numéro représentant l'ID du fichier. Choisissez celui qui s'applique.
+
+Si vous définissez «Lister et lier tous les fichiers CSV?» À «Oui», vous créez automatiquement une liste non ordonnée de liens cliquables qui pointent vers le ou les fichiers CSV respectifs.
+
+================== TIPS: EN ====================
+If you selected «No» on «List &amp; Link all CSV Files?» above &#13;&#10;Then You must supply the ID of CSV File to be rendered otherwise&#13;&#10;Nothing will be visible on the Frontend.&#13;&#10;&#13;&#10;To get the ID of the CSV, please go to the Configuration Page. Click &#13;&#10; on the CSV List Menu to list all the available CSV Files. On the Left of &#13;&#10;each File is a Number representing the ID of the File. Choose the one that applies. &#13;&#10;
+Setting «List &amp; Link all CSV Files?» to «Yes» will automatically create an
+unordered List of clickable Links which point to the respective CSV File(s).
+                                </default>
+                                <readOnly>1</readOnly>
+                            </config>
+                        </TCEforms>
+                    </settings.forms.csv_id_info>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2017-10-04T14:45:54Z" product-name="poiz_csv_lister">
+		<header/>
+		<body>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister">
+				<source>Poiz CSV Lister</source>
+				<target>Poiz CSV Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister.description">
+				<source>An Extension for listing out the contents of a CSV File. If an uploaded CSV File contains entries with path to image files (jpg, png, gif), the entries are directly rendered as images and if the image URI is invalid, a default NOT-FOUND image is used instead. Entries are rendered using HTML Table.</source>
+				<target>Une extension pour lister le contenu d'un fichier CSV. Si un fichier CSV contient des entrées avec un chemin d'accès aux fichiers image (jpg, png, gif), les entrées sont directement affichées sous forme d'images et si l'URI de l'image n'est pas valide, une image par défaut NOT-FOUND est utilisée. Les entrées sont rendues à l'aide de la table HTML.</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvlistermanager">
+				<source>Poiz CSV Lister Manager</source>
+				<target>Poiz CSV Lister Manager</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvlister">
+				<source>Poiz CSV Lister</source>
+				<target>Poiz CSV Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile">
+				<source>Poiz CSV File</source>
+				<target>Poiz CSV File</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile.file_path">
+				<source>File Path</source>
+				<target>File Path</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile.list_render">
+				<source>List Render</source>
+				<target>List Render</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender">
+				<source>Poiz CSV Renderer</source>
+				<target>Poiz CSV Renderer</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.file_id">
+				<source>File ID</source>
+				<target>File ID</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.payload">
+				<source>Payload</source>
+				<target>Payload</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.data">
+				<source>Data</source>
+				<target>Data</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

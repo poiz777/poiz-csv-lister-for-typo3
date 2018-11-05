@@ -1,0 +1,38 @@
+<div class="col-md-12 pz-module">
+	<f:render partial="LocalizedMenu.html" arguments="{activeLink: payload.activeLink}"/>
+	<f:format.raw>{payload.html}</f:format.raw>
+
+	<h1><f:translate key="poiz_csv_lister.miscellaneous.csv_files_listing" /></h1>
+	<f:render partial="BackButtonBlock.html" arguments="{backBtnLink: payload.back}"/>
+	<ul class="list-group list-unstyled">
+		<f:for each="{payload.csvData}" as="csv">
+			<li class="list-group-item col-md-12">
+				<div class="col-md-8">
+					<div class="col-md-12">
+						<div class="col-md-2 pz-uid">
+							<span><i class="fa fa-id-card pz-action-icon"></i> &nbsp;&nbsp;{csv.uid}</span>
+						</div>
+						<div class="col-md-10">{csv.fileName}</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<f:link.action action="updateForm" class="bpz-action-button" arguments="{csv:csv, id:csv.uid}">
+								<i class="fa fa-pencil pz-action-icon"></i>
+								<f:translate key="poiz_csv_lister.miscellaneous.edit_csv" />
+							</f:link.action>
+						</div>
+						<div class="col-md-6">
+							<f:link.action action="delete" arguments="{csv:csv, id:csv.uid, subject:'csv'}" class="pz-action-button">
+								<i class="fa fa-trash pz-action-icon"></i>
+								<f:translate key="poiz_csv_lister.miscellaneous.delete_csv" />
+							</f:link.action>
+						</div>
+					</div>
+				</div>
+			</li>
+		</f:for>
+	</ul>
+
+</div>

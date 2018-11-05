@@ -1,0 +1,62 @@
+<f:if condition="{activeLink} == 'manage'">
+	<f:then>
+		<f:variable name="pzActiveM" value="pz-active-link"/>
+	</f:then>
+	<f:else>
+		<f:variable name="pzActiveM" value=""/>
+	</f:else>
+</f:if>
+<f:if condition="{activeLink} == 'build'">
+	<f:then>
+		<f:variable name="pzActiveB" value="pz-active-link"/>
+	</f:then>
+	<f:else>
+		<f:variable name="pzActiveB" value=""/>
+	</f:else>
+</f:if>
+<f:if condition="{activeLink} == 'preview'">
+	<f:then>
+		<f:variable name="pzActiveP" value="pz-active-link"/>
+	</f:then>
+	<f:else>
+		<f:variable name="pzActiveP" value=""/>
+	</f:else>
+</f:if>
+
+<div class="col-md-12 no-lr-pad">
+	<div class="poiz-logo">
+		<div class="col-md-2 no-lr-pad">
+			<img src="/typo3conf/ext/poiz_csv_lister/Resources/Public/Assets/images/icons/poiz_web_app_dev_logo_02.png" style="max-width: 200px;width:100%" />
+		</div>
+		<div class="col-md-9 no-lr-pad">
+			<div class="no-lr-pad">
+				<span style="display:block;padding:20px;vertical-align: middle;font-size:24px; font-weight:200;letter-spacing: 0.025em;text-transform:uppercase;">
+					<f:translate key="poiz_csv_lister.miscellaneous.management_pane_title" />
+				</span>
+			</div>
+		</div>
+		<div class="col-md-1 pz-gallery-settings-box" id="pz-gallery-settings-box">
+			<i class="fa fa-gears fa-3x" aria-hidden="true"></i>
+		</div>
+	</div>
+	<ul class="list-unstyled col-md-12 no-lr-pad" style="margin-bottom:0;">
+		<li class="list-item col-md-4">
+			<f:link.action action="manage" class="{pzActiveM}">
+				<f:translate key="poiz_csv_lister.miscellaneous.add_csv_file" />
+			</f:link.action>
+		</li>
+		<li class="list-item col-md-4">
+			<f:link.action action="build" class="{pzActiveB}">
+				<f:translate key="poiz_csv_lister.miscellaneous.csv_list" />
+			</f:link.action>
+		</li>
+
+		<li class="list-item col-md-4">
+			<f:link.action action="preview" class="{pzActiveP}">
+				<f:translate key="poiz_csv_lister.miscellaneous.preview_csv_data" />
+			</f:link.action>
+		</li>
+	</ul>
+	<div class="clear-float clearfix" ></div>
+</div>
+<div class="clear-float clearfix" ></div>

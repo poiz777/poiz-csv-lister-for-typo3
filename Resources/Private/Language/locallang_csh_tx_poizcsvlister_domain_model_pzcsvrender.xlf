@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-04T14:45:54Z" product-name="poiz_csv_lister">
+		<header/>
+		<body>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister">
+				<source>Pz CSV Lister</source>
+			</trans-unit>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister.description">
+				<source>An Extension for listing out the contents of a CSV File using Bootstrap...</source>
+			</trans-unit>
+			<trans-unit id="file_id.description">
+				<source>fileId</source>
+			</trans-unit>
+			<trans-unit id="payload.description">
+				<source>payload</source>
+			</trans-unit>
+			<trans-unit id="data.description">
+				<source>data</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

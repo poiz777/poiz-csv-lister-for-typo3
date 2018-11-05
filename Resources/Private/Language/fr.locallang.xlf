@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-04T14:45:54Z" product-name="poiz_csv_lister">
+		<header/>
+		<body>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister">
+				<source>Poiz CSV Lister</source>
+				<target>Poiz CSV Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_poiz_csv_lister_domain_model_pzcsvlister.description">
+				<source>An Extension for listing out the contents of a CSV File. If an uploaded CSV File contains entries with path to image files (jpg, png, gif), the entries are directly rendered as images and if the image URI is invalid, a default NOT-FOUND image is used instead. Entries are rendered using HTML Table.</source>
+				<target>Une extension pour lister le contenu d'un fichier CSV. Si un fichier CSV téléchargé contient des entrées avec un chemin d'accès aux fichiers image (jpg, png, gif), les entrées sont directement affichées sous forme d'images et si l'URI de l'image n'est pas valide, une image par défaut NOT-FOUND est utilisée. Les entrées sont rendues à l'aide de la table HTML.</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvlistermanager">
+				<source>Poiz CSV Lister Manager</source>
+				<target>Poiz CSV Lister Manager</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvlister">
+				<source>Poiz CSV Lister</source>
+				<target>Poiz CSV Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile">
+				<source>Poiz CSV File</source>
+				<target>Poiz CSV File</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile.file_path">
+				<source>File Path</source>
+				<target>File Path</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvfile.list_render">
+				<source>List Render</source>
+				<target>List Render</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender">
+				<source>Poiz CSV Renderer</source>
+				<target>Poiz CSV Renderer</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.file_id">
+				<source>File ID</source>
+				<target>File ID</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.payload">
+				<source>Payload</source>
+				<target>Payload</target>
+			</trans-unit>
+			<trans-unit id="tx_poizcsvlister_domain_model_pzcsvrender.data">
+				<source>Data</source>
+				<target>Data</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.heading_title">
+				<source>poiz_csv_lister.pi_flexform.heading_title</source>
+				<target>Titre (affiché en haut de la liste).</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.heading_placeholder">
+				<source>poiz_csv_lister.pi_flexform.heading_placeholder</source>
+				<target>Laissez vide pour ignorer l'affichage du titre.</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.csv_id_note_label">
+				<source>poiz_csv_lister.pi_flexform.csv_id_note_label</source>
+				<target>Une note sur les champs ci-dessus:</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.option_yes">
+				<source>poiz_csv_lister.pi_flexform.option_yes</source>
+				<target>Oui</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.option_no">
+				<source>poiz_csv_lister.pi_flexform.option_no</source>
+				<target>Non</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.list_and_link_csv_label">
+				<source>poiz_csv_lister.pi_flexform.list_and_link_csv_label</source>
+				<target>Lister et lier tous les fichiers CSV?</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.initial_render_id_label">
+				<source>poiz_csv_lister.pi_flexform.initial_render_id_label</source>
+				<target>L'identifiant du fichier CSV initial à rendre sur cette page</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.initial_render_id_placeholder">
+				<source>poiz_csv_lister.pi_flexform.initial_render_id_placeholder</source>
+				<target>Vous pouvez copier l'ID à partir du volet de configuration Lister CSV.</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.csv_id_note_info">
+				<source>poiz_csv_lister.pi_flexform.csv_id_note_info</source>
+				<target>Si vous avez sélectionné «Non» dans «Répertorier et lier tous les fichiers CSV?» Ci-dessus, vous devez fournir l'ID du fichier CSV à afficher sinon rien ne sera visible sur le Frontend.
+
+Pour obtenir l'ID du fichier CSV, accédez à la page de configuration. Cliquez sur le menu Liste CSV pour répertorier tous les fichiers CSV disponibles. À gauche de chaque fichier se trouve un numéro représentant l'ID du fichier. Choisissez celui qui s'applique.
+
+Si vous définissez «Lister et lier tous les fichiers CSV?» À «Oui», vous créez automatiquement une liste non ordonnée de liens cliquables qui pointent vers le ou les fichiers CSV respectifs.
+				</target>
+			</trans-unit>
+
+
+
+
+			<trans-unit id="poiz_csv_lister.pi_flexform.render_pix_uri_as_pix_image">
+				<source>poiz_csv_lister.pi_flexform.render_pix_uri_as_pix_image</source>
+				<target>Rendre l'image URI en images?</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.csv_files_list">
+				<source>poiz_csv_lister.miscellaneous.csv_files_list</source>
+				<target>Liste de fichiers CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.uploaded_csv_file">
+				<source>poiz_csv_lister.miscellaneous.uploaded_csv_file</source>
+				<target>Fichier CSV téléchargé</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.add_csv_file">
+				<source>poiz_csv_lister.miscellaneous.add_csv_file</source>
+				<target>Ajouter un fichier CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.csv_files_listing">
+				<source>poiz_csv_lister.miscellaneous.csv_files_listing</source>
+				<target>Listes des fichiers CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.csv_list">
+				<source>poiz_csv_lister.miscellaneous.csv_list</source>
+				<target>Liste de fichiers CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.go_back">
+				<source>poiz_csv_lister.miscellaneous.go_back</source>
+				<target>Précédent</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.unique_lister_name">
+				<source>poiz_csv_lister.miscellaneous.unique_lister_name</source>
+				<target>Nom unique du Lister CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.unique_lister_name_desc">
+				<source>poiz_csv_lister.miscellaneous.unique_lister_name_desc</source>
+				<target>Ceci est le nom unique du Lister CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.al_num_ok">
+				<source>poiz_csv_lister.miscellaneous.al_num_ok</source>
+				<target>Les caractères alphanumériques sont autorisés!</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.uploaded_csv_files">
+				<source>poiz_csv_lister.miscellaneous.uploaded_csv_files</source>
+				<target>Fichier(s) CSV téléchargé(s)</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.upload_csv_file">
+				<source>poiz_csv_lister.miscellaneous.upload_csv_file</source>
+				<target>Télécharger un fichier CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.optional">
+				<source>poiz_csv_lister.miscellaneous.optional</source>
+				<target>[Optionnel]</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.uploader_hint">
+				<source>poiz_csv_lister.miscellaneous.uploader_hint</source>
+				<target>Le fichier téléchargé ici est unique pour l'entité CSV sélectionnée.</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.upload_info">
+				<source>poiz_csv_lister.miscellaneous.upload_info</source>
+				<target>Infos sur le téléchargement</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.drop_csv">
+				<source>poiz_csv_lister.miscellaneous.drop_csv</source>
+				<target>Déposez un fichier CSV ci-dessous</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.save">
+				<source>poiz_csv_lister.miscellaneous.save</source>
+				<target>Enregistrer</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.edit_csv">
+				<source>poiz_csv_lister.miscellaneous.edit_csv</source>
+				<target>Modifier CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.delete_csv">
+				<source>Delete CSV</source>
+				<target>Supprimer CSV</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.preview_csv_data">
+				<source>poiz_csv_lister.miscellaneous.preview_csv_data</source>
+				<target>Aperçu</target>
+			</trans-unit>
+
+			<trans-unit id="poiz_csv_lister.miscellaneous.management_pane_title">
+				<source>poiz_csv_lister.miscellaneous.management_pane_title</source>
+				<target>Poiz CSV-Lister: Volet de gestion</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
+
+
